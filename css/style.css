@@ -1307,6 +1307,12 @@
 			 position: relative; 
 			display: inline-block;
 		}
+		.aboutus:hover{
+			-moz-transform: scale(1.1);
+ 			 -webkit-transform: scale(1.1);
+  			transform: scale(1.1);
+  			transition: all .5s ease-in-out;
+		}
 
 		.aboutus p
 		{
