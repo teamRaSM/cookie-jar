@@ -1320,6 +1320,9 @@
 		.well{
 			font-size: 15px;
 			font-family:  'Raleway';
+			width: 100%;  
+			height: auto;
+			 margin:0 auto; 
 			
 		}
 		.well1{
