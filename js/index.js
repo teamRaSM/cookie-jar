@@ -641,5 +641,6 @@
 $(document).ready(function(){
 	$.scrollify({
 		section : ".scrollifySection",
+		touchScroll:false,
 	});
 });
