@@ -931,7 +931,7 @@
 	}
 
 		body.landing #header nav a {
-			color: rgba(255, 255, 255, 0.5);
+			color: red;
 		}
 
 	#header {
@@ -946,7 +946,7 @@
 	}
 
 		#header h1 {
-			color: #ffffff;
+			color: red;
 			height: inherit;
 			left: 3em;
 			line-height: inherit;
