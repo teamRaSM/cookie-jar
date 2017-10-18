@@ -1042,9 +1042,9 @@
 		background-size: cover;
 		color: #ffffff;
 		background-repeat: no-repeat;
-		padding: 12em 0em 0em;
+		padding: 5em 0em 0em;
 		text-align: center;
-		height: 100vh;
+		height: 110vh;
 	}
 
 		#banner :last-child {
@@ -1055,9 +1055,22 @@
 			color: white;
 			font-size: 4em;
 			line-height: 1.25em;
-			margin-top: -70px;
+			margin-top: 400px;
 			padding: 2px;
 			z-index: 1;
+		}
+		@media screen and (max-width: 600px){
+			#banner h2 {
+			margin-top: 0px;
+			padding: 2px;
+			background-position: top;
+			z-index: 1;
+			}
+			#banner {
+		padding: 0em 0em 0em;
+		text-align: center;
+		height: 100vh;
+			}
 		}
 
 		#banner p {
