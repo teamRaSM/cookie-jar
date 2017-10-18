@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<head>
+		<title>Cookie Jar</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="row" id="navbar">
+				  <nav>
+				    <div class="nav-wrapper">
+				      <a href="#" class="brand-logo">Logo</a>
+				      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      					<ul class="right hide-on-med-and-down">
+					       	<li><a href="#section5">Landing</a></li>
+					        <li><a href="#section6">Home</a></li>
+					        <li><a href="#section7">About</a></li>
+					        <li><a href="#section8">Team</a></li>
+				      	</ul>
+						<ul class="side-nav" id="mobile-demo">
+					       	<li><a href="#section5">Landing</a></li>
+					        <li><a href="#section6">Home</a></li>
+					        <li><a href="#section7">About</a></li>
+					        <li><a href="#section8">Team</a></li>	
+						</ul>
+				    </div>
+				  </nav>
+			</div>
+			<div class="row scrollifySection centeredContainer" id="section5" data-section-name="section1">
+        		<div class="col s12" id="section1content">
+            		<h1 class="homeText">Some Sample Text</h1>
+            		<h2 class="homeText">Some More Sample Text</h2>	
+        		</div>
+    		</div>
+    		<div class="row scrollifySection" id="section6" data-section-name="section2"></div>
+   			<div class="row scrollifySection" id="section7" data-section-name="section3"></div>
+   			<div class="row scrollifySection" id="section8" data-section-name="section4"></div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script>
+		$( document ).ready(function(){
+			$(".button-collapse").sideNav();
+		})
+	</script>
+</html>
+				
