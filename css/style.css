@@ -1038,11 +1038,11 @@
 	#banner {
 		/*background-image: url(../images/cookie_jar.png);*/
 		background-image: url(../images/pic07.jpg);
-		background-position: right center;
+		background-position: center;
 		background-size: cover;
 		color: #ffffff;
 		background-repeat: no-repeat;
-		padding: 8em 0em 0em;
+		padding: 12em 0em 0em;
 		text-align: center;
 		height: 100vh;
 	}
@@ -1052,11 +1052,11 @@
 		}
 
 		#banner h2 {
-			color: #000;
+			color: white;
 			font-size: 4em;
 			line-height: 1.25em;
-			margin: 0 0 0.5em 0;
-			padding: 0;
+			margin-top: -70px;
+			padding: 2px;
 			z-index: 1;
 		}
 
