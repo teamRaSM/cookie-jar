@@ -2,11 +2,6 @@
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
-/*
-	Transit by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Basic */
 
@@ -1031,12 +1026,14 @@
 /* Banner */
 
 	#banner {
-		background-image: url(../images/dark_tint.png), url(../images/bokeh_car_lights_bg.jpg);
-		background-position: center center;
-		background-size: cover;
+		background-image: url(../images/cookie_jar.png);
+		background-position: right center;
+		background-size: contain;
 		color: #ffffff;
-		padding: 14em 0em 14em;
+		background-repeat: no-repeat;
+		padding: 8em 0em 0em;
 		text-align: center;
+		height: 100vh;
 	}
 
 		#banner :last-child {
@@ -1044,17 +1041,81 @@
 		}
 
 		#banner h2 {
-			color: #ffffff;
+			color: #000;
 			font-size: 4em;
 			line-height: 1.25em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
+			z-index: 1;
 		}
 
 		#banner p {
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 		}
+
+		#btn_down{
+			margin-top: 25em;
+		}
+/*
+.downArrow{
+	position: fixed;
+	bottom: 45%;
+	left: 50%;
+}
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}*/
 
 /* Wrapper */
 
@@ -1097,11 +1158,18 @@
 				float: left;
 				margin-bottom: 1em;
 				margin-right: 1em;
+				width:30%;
 			}
 
 			.wrapper.style2 .profile h4 {
 				margin-bottom: 0;
 				margin-top: 1em;
+			}
+			a:hover{
+				text-decoration:none;
+			}
+			.yash{
+				width: 50% !important;
 			}
 
 		.wrapper.style2 footer {
