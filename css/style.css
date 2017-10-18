@@ -1038,13 +1038,13 @@
 	#banner {
 		/*background-image: url(../images/cookie_jar.png);*/
 		background-image: url(../images/pic07.jpg);
-		background-position: right center;
+		background-position: center;
 		background-size: cover;
 		color: #ffffff;
 		background-repeat: no-repeat;
-		padding: 8em 0em 0em;
+		padding: 5em 0em 0em;
 		text-align: center;
-		height: 100vh;
+		height: 110vh;
 	}
 
 		#banner :last-child {
@@ -1052,12 +1052,25 @@
 		}
 
 		#banner h2 {
-			color: #000;
+			color: white;
 			font-size: 4em;
 			line-height: 1.25em;
-			margin: 0 0 0.5em 0;
-			padding: 0;
+			margin-top: 400px;
+			padding: 2px;
 			z-index: 1;
+		}
+		@media screen and (max-width: 600px){
+			#banner h2 {
+			margin-top: 0px;
+			padding: 2px;
+			background-position: top;
+			z-index: 1;
+			}
+			#banner {
+		padding: 0em 0em 0em;
+		text-align: center;
+		height: 100vh;
+			}
 		}
 
 		#banner p {
@@ -1307,6 +1320,12 @@
 			 position: relative; 
 			display: inline-block;
 		}
+		.aboutus:hover{
+			-moz-transform: scale(1.1);
+ 			 -webkit-transform: scale(1.1);
+  			transform: scale(1.1);
+  			transition: all .5s ease-in-out;
+		}
 
 		.aboutus p
 		{
@@ -1320,6 +1339,9 @@
 		.well{
 			font-size: 15px;
 			font-family:  'Raleway';
+			width: 100%;  
+			height: auto;
+			 margin:0 auto; 
 			
 		}
 		.well1{
