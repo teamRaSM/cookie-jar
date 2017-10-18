@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
-
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 /* Basic */
 
@@ -931,7 +931,7 @@
 	}
 
 		body.landing #header nav a {
-			color: rgba(255, 255, 255, 0.5);
+			color: white;
 		}
 
 	#header {
@@ -946,7 +946,7 @@
 	}
 
 		#header h1 {
-			color: #ffffff;
+			color: white;
 			height: inherit;
 			left: 3em;
 			line-height: inherit;
@@ -1024,11 +1024,22 @@
 			}
 
 /* Banner */
-
-	#banner {
-		background-image: url(../images/cookie_jar.png);
+.bg{
+	background-image: url(../images/cookie_jar.png);
 		background-position: right center;
 		background-size: contain;
+		color: #ffffff;
+		background-repeat: no-repeat;
+		padding: 2em 0em 0em;
+		text-align: center;
+		height: 75vh;
+}
+
+	#banner {
+		/*background-image: url(../images/cookie_jar.png);*/
+		background-image: url(../images/pic07.jpg);
+		background-position: right center;
+		background-size: cover;
 		color: #ffffff;
 		background-repeat: no-repeat;
 		padding: 8em 0em 0em;
@@ -1285,3 +1296,45 @@
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+
+		.aboutus
+		{
+			width: 100%;  
+			height: 20em;
+			 margin:0 auto; 
+			background-color: white;
+			 box-shadow: 10px 10px 5px #888888; 
+			 position: relative; 
+			display: inline-block;
+		}
+
+		.aboutus p
+		{
+			margin: 0;
+			 position: absolute; 
+			top: 50%;
+			 left: 50%;
+			  margin-right: -50%; 
+			  transform: translate(-50%, -50%);
+		}
+		.well{
+			font-size: 15px;
+			font-family:  'Raleway';
+			
+		}
+		.well1{
+			font-size: 15px;
+			font-family:  'Raleway';
+			
+		}
+		.well2{
+			font-size: 15px;
+			font-family: 'Raleway';
+			
+		}
+			
+		.little{
+			font-size: 20px;
+			font-weight: bold;
+			font-family: 'Cinzel';
+			}
