@@ -2,11 +2,6 @@
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
-/*
-	Transit by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Basic */
 
@@ -1163,11 +1158,18 @@
 				float: left;
 				margin-bottom: 1em;
 				margin-right: 1em;
+				width:30%;
 			}
 
 			.wrapper.style2 .profile h4 {
 				margin-bottom: 0;
 				margin-top: 1em;
+			}
+			a:hover{
+				text-decoration:none;
+			}
+			.yash{
+				width: 50% !important;
 			}
 
 		.wrapper.style2 footer {
