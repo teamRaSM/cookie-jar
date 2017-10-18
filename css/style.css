@@ -931,7 +931,7 @@
 	}
 
 		body.landing #header nav a {
-			color: red;
+			color: white;
 		}
 
 	#header {
@@ -946,7 +946,7 @@
 	}
 
 		#header h1 {
-			color: red;
+			color: white;
 			height: inherit;
 			left: 3em;
 			line-height: inherit;
@@ -1024,11 +1024,22 @@
 			}
 
 /* Banner */
-
-	#banner {
-		background-image: url(../images/cookie_jar.png);
+.bg{
+	background-image: url(../images/cookie_jar.png);
 		background-position: right center;
 		background-size: contain;
+		color: #ffffff;
+		background-repeat: no-repeat;
+		padding: 2em 0em 0em;
+		text-align: center;
+		height: 75vh;
+}
+
+	#banner {
+		/*background-image: url(../images/cookie_jar.png);*/
+		background-image: url(../images/pic07.jpg);
+		background-position: right center;
+		background-size: cover;
 		color: #ffffff;
 		background-repeat: no-repeat;
 		padding: 8em 0em 0em;
