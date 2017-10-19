@@ -1344,24 +1344,7 @@
 			border-radius: 0 4px 4px 0;
 		}
 
-		.aboutus
-		{
-			width: 100%;  
-			height: 20em;
-			 margin:0 auto; 
-			background-color: white;
-			 box-shadow: 10px 10px 5px #888888; 
-			 position: relative; 
-			display: inline-block;
-		}
-		.aboutus:hover{
-			-moz-transform: scale(1.1);
- 			 -webkit-transform: scale(1.1);
-  			transform: scale(1.1);
-  			transition: all .5s ease-in-out;
-		}
-
-		.aboutus p
+		.card p
 		{
 			margin: 0;
 			 position: absolute; 
@@ -1369,6 +1352,23 @@
 			 left: 50%;
 			  margin-right: -50%; 
 			  transform: translate(-50%, -50%);
+		}
+.card:hover{
+			-moz-transform: scale(1.1);
+ 			 -webkit-transform: scale(1.1);
+  			transform: scale(1.1);
+  			transition: all .5s ease-in-out;
+		}
+
+		.card
+		{
+			width: 100%;  
+			height: 20em;
+			 margin:0 auto; 
+			background-color: white;
+			 box-shadow: 5px 5px 1px #888888; 
+			 position: relative; 
+			display: inline-block;
 		}
 		.well{
 			font-size: 15px;
