@@ -1370,3 +1370,9 @@
 			text-align: center;
 			width: 3.25em;
 		}
+/*Carousel*/
+		@media (max-width: 991px){
+			#car{
+				padding: 0 !important;
+			}
+		}
