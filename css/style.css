@@ -1060,13 +1060,17 @@
 	}
 	@media screen and (max-width: 600px){
 		.logo_img{
-			top: -300px;
+			top: -350px;
+			width: 75%;
 	}
 		#banner{
 			height: 50vh;
 		}
 		#banne{
 			height: 100vh;
+		}
+		.catchy_text{
+			font-size: 30px;
 		}
 	}
 	@media screen and (min-width: 601px) {
