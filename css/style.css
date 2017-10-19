@@ -1478,34 +1478,49 @@
 
 		@media (max-width: 527px)
 	{
-		.major {
+		/*.major {
 				position: sticky;
 				top: .2px;
 				font-size: 1em;
 				background: white;
+			}*/
+			.major h2 {
+				font-weight: bold;
 			}
 			.bak {
 				position: sticky;
-				top: .2px;
-				font-size: .7em;
+				top: 5px;
 				background: white;
+			}
+			.bak h2 {
+				font-size: 1.5em;
+				font-weight: bold;
 			}
 			.tec {
 				position: sticky;
-				top: .2px;
-				font-size: .6em;
+				top: 5px;
 				background: white;
+			}
+			.tec h2 {
+				font-size: 1.5em;
+				font-weight: bold;
 			}
 			.des {
 				position: sticky;
-				top: .2px;
-				font-size: 1em;
+				top: 5px;
 				background: white;
+			}
+			.des h2 {
+				font-size: 1.5em;
+				font-weight: bold;
 			}
 			.mar {
 				position: sticky;
-				top: .2px;
-				font-size: 1em;
+				top: 5px;
 				background: white;
+			}
+			.mar h2 {
+				font-size: 1.5em;
+				font-weight: bold;
 			}
 		}
