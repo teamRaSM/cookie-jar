@@ -1036,10 +1036,14 @@
 }
 
 	#banner {
-		/*background-image: url(../images/cookie_jar.png);*/
-		background-image: url(../images/pic07.jpg);
+		background-image: url(../images/cover.jpg);
 		background-position: center;
 		background-size: cover;
+		-webkit-filter: blur(1px);
+		-moz-filter: blur(1px);
+		-o-filter: blur(1px);
+		-ms-filter: blur(1px);
+		filter: blur(1px);
 		color: #ffffff;
 		background-repeat: no-repeat;
 		padding: 5em 0em 0em;
@@ -1055,7 +1059,6 @@
 			color: white;
 			font-size: 4em;
 			line-height: 1.25em;
-			margin-top: 400px;
 			padding: 2px;
 			z-index: 1;
 		}
@@ -1191,9 +1194,6 @@
 			}
 			a:hover{
 				text-decoration:none;
-			}
-			.yash{
-				width: 50% !important;
 			}
 
 		.wrapper.style2 footer {
