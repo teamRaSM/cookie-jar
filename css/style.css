@@ -1489,38 +1489,50 @@
 			}
 			.bak {
 				position: sticky;
-				top: 5px;
-				background: white;
+				top: -1px;
 			}
 			.bak h2 {
-				font-size: 1.5em;
-				font-weight: bold;
+				background: #B8C1C8;
+  				border-bottom: 1px solid #989EA4;
+  				border-top: 1px solid #717D85;
+  				color: #FFF;
+  				margin: 0;
+ 			    padding: 2px 0 0 12px;
 			}
 			.tec {
 				position: sticky;
-				top: 5px;
-				background: white;
+				top: -1px;
 			}
 			.tec h2 {
-				font-size: 1.5em;
-				font-weight: bold;
+				background: #B8C1C8;
+  				border-bottom: 1px solid #989EA4;
+  				border-top: 1px solid #717D85;
+  				color: #FFF;
+  				margin: 0;
+ 			    padding: 2px 0 0 12px;
 			}
 			.des {
 				position: sticky;
-				top: 5px;
-				background: white;
+				top: -1px;
 			}
 			.des h2 {
-				font-size: 1.5em;
-				font-weight: bold;
+				background: #B8C1C8;
+  				border-bottom: 1px solid #989EA4;
+  				border-top: 1px solid #717D85;
+  				color: #FFF;
+  				margin: 0;
+ 			    padding: 2px 0 0 12px;
 			}
 			.mar {
 				position: sticky;
-				top: 5px;
-				background: white;
+				top: -1px;
 			}
 			.mar h2 {
-				font-size: 1.5em;
-				font-weight: bold;
+				background: #B8C1C8;
+  				border-bottom: 1px solid #989EA4;
+  				border-top: 1px solid #717D85;
+  				color: #FFF;
+  				margin: 0;
+ 			    padding: 2px 0 0 12px;
 			}
 		}
