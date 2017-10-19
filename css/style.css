@@ -1366,7 +1366,7 @@
 			height: 20em;
 			 margin:0 auto; 
 			background-color: white;
-			 box-shadow: 5px 5px 1px #888888; 
+			 box-shadow: 5px 5px 10px #888888; 
 			 position: relative; 
 			display: inline-block;
 		}
