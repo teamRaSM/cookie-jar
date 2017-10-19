@@ -1480,27 +1480,32 @@
 	{
 		.major {
 				position: sticky;
-				top:0px;
+				top: 20px;
 				font-size: 1em;
+				background: white;
 			}
 			.bak {
 				position: sticky;
-				top:0px;
+				top: 20px;
 				font-size: .7em;
+				background: white;
 			}
 			.tec {
 				position: sticky;
-				top:0px;
+				top: 20px;
 				font-size: .6em;
+				background: white;
 			}
 			.des {
 				position: sticky;
-				top:0px;
+				top: 20px;
 				font-size: 1em;
+				background: white;
 			}
 			.mar {
 				position: sticky;
-				top:0px;
+				top: 20px;
 				font-size: 1em;
+				background: white;
 			}
 		}
