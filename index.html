@@ -7,6 +7,7 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
@@ -205,7 +206,7 @@
 					<header class="major">
 						<h2>Meet The Tech Team of Cookie Jar</h2>
 					</header>
-					<section class="profiles">
+					<section id="tech" class="profiles">
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
 								<a href="https://www.linkedin.com/in/saiprasanth-raghuraman-8b9983126/"><img class="founder_img" src="images/sai.jpg" alt="" />
@@ -245,7 +246,7 @@
 					<header class="major">
 						<h2>Meet The Design Team of Cookie Jar</h2>
 					</header>
-					<section class="profiles">
+					<section id="design" class="profiles">
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
 								<a href="https://www.linkedin.com/in/vignesh-k-74b1086a/"><img class="founder_img" src="images/vignesh.jpg" alt="" />
@@ -265,7 +266,7 @@
 					<header class="major">
 						<h2>Meet The Marketing Team of Cookie Jar</h2>
 					</header>
-					<section class="profiles">
+					<section id="market" class="profiles">
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
 									<a href="https://www.linkedin.com/in/shubhmehta/"><img src="images/shubh.jpg" alt="" />
@@ -367,10 +368,10 @@
 							<section  class="3u$ 6u$(medium) 12u$(small)">
 								<h3>TEAMS</h3>
 								<ul class="unstyled"><i>
-									<li> <a href="#bakers">Founders</a></li>
-									<li><a href="#Tech team">Tech-team</a></li>
+									<li> <a href="#three">Founders</a></li>
+									<li><a href="#tech">Tech-team</a></li>
 									<li><a href="#design">Design</a></li>
-									<li><a href="#marketing">Marketing</a></li></i>
+									<li><a href="#market">Marketing</a></li></i>
 									
 								</ul>
 							</section>
@@ -407,7 +408,7 @@
 
 	</body>
 	<script type="text/javascript">
-		$documeant.ready({
+		$(document).ready({
 			$('.carousel').carousel({
   				interval: 2000,
 			})
