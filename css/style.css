@@ -445,7 +445,7 @@
 
 		.icon.rounded {
 			background-color: #383b43;
-			border-radius: 100%;
+			border-radius: 0%;
 			color: #ffffff;
 			display: inline-block;
 			height: 3.25em;
@@ -1360,3 +1360,19 @@
 			font-weight: bold;
 			font-family: 'Cinzel';
 			}
+		.cookie {
+			background-color: #383b43;
+			
+			color: #ffffff;
+			display: inline-block;
+			height: 3.25em;
+			line-height: 3.25em;
+			text-align: center;
+			width: 3.25em;
+		}
+/*Carousel*/
+		@media (max-width: 991px){
+			#car{
+				padding: 0 !important;
+			}
+		}
