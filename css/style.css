@@ -1475,3 +1475,32 @@
 			}
 
 		}*/
+
+		@media (max-width: 527px)
+	{
+		.major {
+				position: sticky;
+				top:0px;
+				font-size: 1em;
+			}
+			.bak {
+				position: sticky;
+				top:0px;
+				font-size: .7em;
+			}
+			.tec {
+				position: sticky;
+				top:0px;
+				font-size: .6em;
+			}
+			.des {
+				position: sticky;
+				top:0px;
+				font-size: 1em;
+			}
+			.mar {
+				position: sticky;
+				top:0px;
+				font-size: 1em;
+			}
+		}
