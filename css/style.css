@@ -1193,7 +1193,7 @@
 				margin-top: 1em;
 			}
 			a:hover{
-				text-decoration:none;
+				text-decoration:none !important;
 			}
 
 		.wrapper.style2 footer {
