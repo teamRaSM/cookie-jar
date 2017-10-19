@@ -1024,17 +1024,6 @@
 			}
 
 /* Banner */
-.bg{
-	background-image: url(../images/cookie_jar.png);
-		background-position: right center;
-		background-size: contain;
-		color: #ffffff;
-		background-repeat: no-repeat;
-		padding: 2em 0em 0em;
-		text-align: center;
-		height: 75vh;
-}
-
 	#banner {
 		background-image: url(../images/cover.jpg);
 		background-position: center;
@@ -1043,12 +1032,53 @@
 		-moz-filter: blur(1px);
 		-o-filter: blur(1px);
 		-ms-filter: blur(1px);
-		filter: blur(1px);
+		filter: blur(4px);
 		color: #ffffff;
 		background-repeat: no-repeat;
 		padding: 5em 0em 0em;
 		text-align: center;
 		height: 110vh;
+	}
+	.logo_img{
+		margin: auto;
+		text-align: center;
+		color: #ffffff;
+		width:50%;
+		height: auto;
+		height: auto;
+		position: relative;
+		top: -450px;
+	}
+	.catchy_text{
+			 text-shadow: 2px 2px #FF0000;
+		}
+	.cj{
+		color: #FF0000;
+	}
+	.cj:hover{
+		color: #FF0000;
+	}
+	@media screen and (max-width: 600px){
+		.logo_img{
+			top: -300px;
+	}
+		#banner{
+			height: 50vh;
+		}
+		#banne{
+			height: 100vh;
+		}
+	}
+	@media screen and (min-width: 601px) {
+		.logo_img{
+			top: -400px;
+	}
+		#banner{
+			height: 100vh;
+		}
+		#banne{
+			height: 100vh;
+		}
 	}
 
 		#banner :last-child {
