@@ -1029,7 +1029,7 @@
 
 /* Banner */
 	#banner {
-		background-image: url(../images/cover.jpg);
+		background-image: url(../images/cover.jpeg);
 		background-position: center;
 		background-size: cover;
 		-webkit-filter: blur(1px);
