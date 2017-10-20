@@ -995,9 +995,10 @@ a{
 			line-height: inherit;
 			left:0em;
 			background: #963030;
+			opacity: 0.75;
 			display: flex;
 			z-index: 1000;
-			position: absolute;
+			position: fixed;
 			width: 100%;
 			justify-content: flex-end;
 			font-weight: 700;
