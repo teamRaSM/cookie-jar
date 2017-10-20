@@ -7,6 +7,7 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href="images/favicon.png" rel="icon" type="image/png">
+		<link rel="manifest" href="manifest.json">
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="js/jquery.min.js"></script>
@@ -71,7 +72,9 @@ $(document).ready(function(){
 				<div class="logo_img">
 				<img src="images/cookie_jar.png" class="12u$ 12u$(medium) 12u$(xsmall)">
 				<h2 class="catchy_text"> PIONEER . COLLABORATE . SIMPLIFY .</h2>
+				<div class="down-arrow">
 				<a href="#one" class="ca3-scroll-down-link ca3-scroll-down-arrow"></a>
+			</div>
 				</div>
 			</section>
 
@@ -83,7 +86,7 @@ $(document).ready(function(){
 						<h2>ABOUT US</h2>
 					</header>
 					<div class="card">
-						<p>Cookie jar is a media tech startup that focuses on creating great content online and offline.
+						<p class="card_content">Cookie jar is a media tech startup that focuses on creating great content online and offline.
 
 Content, being the ultimate goal, the startup is trying to redefine how it is created and how it is put out there for the people to consume.
 
@@ -218,7 +221,41 @@ From summits to interviews, and exhibitions to articles or images online, we foc
 					</div>
 				</section>
 
-
+	<!-- testimonials -->
+		<!-- One -->
+		<section id="test" class="wrapper style1 special">
+			<div class="container">
+						<header class="tes">
+							<h2>Testimonials</h2>
+						</header>
+				<div class="well">
+				<header class="major"><img class="t_img" src="images/sharath.jpg" alt="#"> 
+				<p> “Cookie Jar is a team of passionate, mature youngsters who are determined to build the entrepreneurial ecosystem. I wish them the best and would love to see them succeed.” -<span class="little" > Sharath Gayakwad, Paralympian, Arjuna Awardee</span></p>
+				</header>
+				</div>
+	
+				<div class="well1">
+				<header class="major"><img class="t_img" src="images/aakarsh.jpg" alt="#"> 
+				<p>"Cookie Jar is a team of enthusiastic and passionate youngsters who are out there to build the ecosystem for startups!"  <span class="little" >Aakarsh Naidu, Startup initiatives, NSRCEL IIMB</span></p>
+				</header>
+				</div>
+				
+				<div class="well2">
+				<header class="major"><img class="t_img" src="images/srikanth.jpg" alt="#">
+				<p>  "It was a great experience to be a part of the primogenial event of Cookie Jar. Startups are an integral part in the development of India's vision and it is sterling to know that these young entrepreneurs show so much professionalism in their work and maturity in thought. Cookie Jar team has immense potential to execute bigger projects and I wish them the best" -<span class="little" > Dr CA Srikant,CFO of Chakra Venture Partners</span> </p>
+				</header>
+				</div>
+				
+				<div class="well3">
+					<header class="major">
+					<p>  <div class="well2">
+						<header class="major"> <img class="t_img" src="images/murali.jpeg" alt="#">
+						<p> We (Goevnts.com) worked with Cookie Jar as partner to their entrepreneurship event and I personally found the passion in the team and the way they organized the event in an interesting way. I appreciate the team’s work in the field of event management and wishing them a great future ahead. " -<span class="little" >Murali Krishna , Founder of Goevnts.com &amp; Evhub.in </span> </p>
+					</header>
+					</div>
+			</div>
+		</section>
+	
 		<!-- Two -->
 			<section id="three" class="wrapper style2 special">
 				<div class="container">
@@ -346,41 +383,7 @@ From summits to interviews, and exhibitions to articles or images online, we foc
 			</section>
 
 
-			<!-- testimonials -->
-		<!-- One -->
-		<section id="test" class="wrapper style1 special">
-		<div class="container">
-					<header class="tes">
-						<h2>Testimonials</h2>
-					</header>
-			<div class="well">
-			<header class="major">
-			<p><img class="t_img" src="images/sharath.jpg" alt="#">  “Cookie Jar is a team of passionate, mature youngsters who are determined to build the entrepreneurial ecosystem. I wish them the best and would love to see them succeed.” -<span class="little" > Sharath Gayakwad, Paralympian, Arjuna Awardee</span></p>
-			</header>
-			</div>
-
-			<div class="well1">
-			<header class="major">
-			<p><img class="t_img" src="images/aakarsh.jpg" alt="#"> "Cookie Jar is a team of enthusiastic and passionate youngsters who are out there to build the ecosystem for startups!"  <span class="little" >Aakarsh Naidu, Startup initiatives, NSRCEL IIMB</span></p>
-			</header>
-			</div>
-			
-			<div class="well2">
-			<header class="major">
-			<p> <img class="t_img" src="images/srikanth.jpg" alt="#"> "It was a great experience to be a part of the primogenial event of Cookie Jar. Startups are an integral part in the development of India's vision and it is sterling to know that these young entrepreneurs show so much professionalism in their work and maturity in thought. Cookie Jar team has immense potential to execute bigger projects and I wish them the best" -<span class="little" > Dr CA Srikant</span> </p>
-			</header>
-			</div>
-			
-			<div class="well3">
-				<header class="major">
-				<p>  <div class="well2">
-					<header class="major">
-					<p> <img class="t_img" src="images/murali.jpeg" alt="#"> We (Goevnts.com) worked with Cookie Jar as partner to their entrepreneurship event and I personally found the passion in the team and the way they organized the event in an interesting way. I appreciate the team’s work in the field of event management and wishing them a great future ahead. " -<span class="little" >Murali Krishna ( Founder of Goevnts.com &amp; Evhub.in ) </span> </p>
-				</header>
-				</div>
-		</div>
-	</section>
-
+		
 
 		<!-- Three -->
 		<a name="msg"> 
@@ -419,7 +422,7 @@ From summits to interviews, and exhibitions to articles or images online, we foc
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(small)">
 								
-								<img class="icon big rounded" src="images/cookie_jar.png"></i>
+								 <img class="icon big rounded" src="images/cookie_jar.png"></img></a>
 								
 							</section>
 							

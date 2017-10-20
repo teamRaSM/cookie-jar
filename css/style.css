@@ -451,10 +451,10 @@
 			border-radius: 0%;
 			color: #ffffff;
 			display: inline-block;
-			height: 3.25em;
+			height: 2.5em;
 			line-height: 3.25em;
 			text-align: center;
-			width: 3.25em;
+			width: 5.25em;
 		}
 
 			.icon.rounded.big {
@@ -948,7 +948,28 @@ a{
 		width: 100%;
 		z-index: 10000;
 	}
-
+	header img:hover{
+		zoom:1.3;
+		transition-property: width, height 2s;
+		
+	}
+	header{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		width:100%;
+	}
+	header p{
+		display: inline-block;
+		max-width:75%;
+		transition-property: width, height 2s;
+	}
+	header img{
+		vertical-align: top;
+		display: inline-block;
+		max-width:20%;
+	}
 		#header h1 {
 			color: white;
 			height: inherit;
@@ -1084,6 +1105,12 @@ nav > ul > li .button {
 
 		.catchy_text{
 			font-size: 15px;
+		}
+		header img{
+			max-width:50%;
+		}
+		header p{
+			max-width:100%;
 		}
 	}
 	@media screen and (min-width: 601px) {
@@ -1415,16 +1442,20 @@ nav > ul > li .button {
 		.ca3-scroll-down-arrow {
 					background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
 					background-size: contain;
+								height: 60px;
+			width: 80px;
 					background-repeat: no-repeat;
 		}
 
 		.ca3-scroll-down-link {
 		  cursor:pointer;
-			height: 60px;
-			width: 80px;
+
 			position: absolute;
 			margin-top:10vh;
-			left: 49%;
+			margin-left: auto;
+			margin-right: auto;
+			left: 0;
+			right: 0px;
 			color: #FFF;
 			text-align: center;
 			font-size: 70px;
