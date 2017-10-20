@@ -192,7 +192,6 @@
 
 	header.major {
 		text-align: center;
-		margin-bottom: 4em;
 	}
 
 		header.major h2 {
@@ -935,7 +934,7 @@ a{
 		top: 0;
 	}
 
-		body.landing #header nav a {
+		body.landing nav a {
 			color: white !important;
 		}
 
@@ -963,48 +962,54 @@ a{
 			#header h1 a {
 				font-size: 1.25em;
 			}
-
-		#header nav {
+			#nav{
+				display: flex;
+			}
+			#nav ul{
+				height: 100%;
+				display: flex;
+			}
+		nav {
 			height: inherit;
 			line-height: inherit;
+			left:0em;
+			background: #963030;
+			display: flex;
+			z-index: 1000;
 			position: absolute;
-			right: 3em;
+			width: 100%;
+			justify-content: flex-end;
+			font-weight: 700;
 			vertical-align: middle;
 		}
 
-			#header nav > ul {
+			nav > ul {
 				list-style: none;
 				margin: 0;
 				padding-left: 0;
 			}
 
-				#header nav > ul > li {
+				nav > ul > li {
 					border-radius: 4px;
 					display: inline-block;
-					margin-left: 2em;
-					padding-left: 0;
 				}
 
-					#header nav > ul > li a {
+					nav > ul > li a {
 						-moz-transition: color 0.2s ease-in-out;
 						-webkit-transition: color 0.2s ease-in-out;
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
 						color: #cdced0;
+						padding:15px;
 						display: inline-block;
 						text-decoration: none;
 					}
 
-						#header nav > ul > li a:active, #header nav > ul > li a:hover {
+nav > ul > li a:active, nav > ul > li a:hover {
 							color: #ffffff;
 						}
-
-					#header nav > ul > li:first-child {
-						margin-left: 0;
-					}
-
-					#header nav > ul > li .button {
+nav > ul > li .button {
 						background-color: #fff;
 						color: #444 !important;
 						height: 2.25em;
@@ -1029,20 +1034,30 @@ a{
 			}
 
 /* Banner */
+#banne{
+	height: 100vh;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
 	#banner {
+		overflow: hidden;
 		background-image: url(../images/cover.jpeg);
 		background-position: center;
 		background-size: cover;
-		-webkit-filter: blur(1px);
-		-moz-filter: blur(1px);
-		-o-filter: blur(1px);
-		-ms-filter: blur(1px);
+		-webkit-filter: blur(4px);
+		-moz-filter: blur(4px);
+		-o-filter: blur(4px);
+		-ms-filter: blur(4px);
 		filter: blur(4px);
+		position: absolute;
+		transform: scale(1.1);
 		color: #ffffff;
 		background-repeat: no-repeat;
 		padding: 5em 0em 0em;
 		text-align: center;
-		height: 110vh;
+		height: 100%;
+		width: 100%;
 	}
 	.logo_img{
 		margin: auto;
@@ -1052,7 +1067,6 @@ a{
 		height: auto;
 		height: auto;
 		position: relative;
-		top: -450px;
 	}
 	.catchy_text{
 			/* text-shadow: 2px 2px #FF0000;*/
@@ -1065,29 +1079,14 @@ a{
 	}
 	@media screen and (max-width: 600px){
 		.logo_img{
-			top: -350px;
 			width: 75%;
 	}
-		#banner{
-			height: 50vh;
-		}
-		#banne{
-			height: 100vh;
-		}
+
 		.catchy_text{
 			font-size: 15px;
 		}
 	}
 	@media screen and (min-width: 601px) {
-		.logo_img{
-			top: -400px;
-	}
-		#banner{
-			height: 100vh;
-		}
-		#banne{
-			height: 100vh;
-		}
 	}
 
 		#banner :last-child {
@@ -1111,7 +1110,6 @@ a{
 			#banner {
 		padding: 0em 0em 0em;
 		text-align: center;
-		height: 100vh;
 			}
 		}
 
@@ -1186,7 +1184,7 @@ a{
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0em 4em;
+		padding: 0em 0em 4em;
 		/* Style 1 Wrapper */
 		/* Style 2 Wrapper */
 		/* Style 3 Wrapper */
@@ -1208,9 +1206,7 @@ a{
 				}
 
 		.wrapper.style2 .profiles {
-			border-bottom: 1px solid rgba(144, 144, 144, 0.25);
-			border-top: 1px solid rgba(144, 144, 144, 0.25);
-			margin-bottom: 4em;
+			padding-bottom: 4em;
 			padding-top: 4em;
 		}
 
@@ -1218,7 +1214,14 @@ a{
 			margin-bottom: 2em;
 			text-align: left;
 		}
-
+		header{
+			margin-bottom: 15px;
+		}
+		header h2{
+			padding-top: 15px;
+			padding-bottom: 15px;
+			border-top: 1px solid rgba(144, 144, 144, 0.25);
+		}
 			.wrapper.style2 .profile img {
 				border-radius: 50%;
 				float: left;
@@ -1229,7 +1232,7 @@ a{
 
 			.wrapper.style2 .profile h4 {
 				margin-bottom: 0;
-				margin-top: 1em;
+				margin-top: 0em;
 			}
 			a:hover{
 				text-decoration:none !important;
@@ -1349,31 +1352,22 @@ a{
 			border-radius: 0 4px 4px 0;
 		}
 
-		.card p
-		{
-			margin: 0;
-			 position: absolute; 
-			top: 50%;
-			 left: 50%;
-			  margin-right: -50%; 
-			  transform: translate(-50%, -50%);
-		}
 .card:hover{
-			-moz-transform: scale(1.1);
- 			 -webkit-transform: scale(1.1);
-  			transform: scale(1.2);
-  			transition: all 1s ease-in-out;
+			-moz-transform: scale(1.08);
+ 			 -webkit-transform: scale(1.08);
+  			transform: scale(1.08);
 		}
 
 		.card
-		{
+		{	padding: 2vw;
+			  transition: all .25s ease-in-out;
 			width: 100%;  
-			height: 20em;
-			 margin:0 auto; 
+			height: 15em;
 			background-color: white;
 			 box-shadow: 0px 0px 10px #888888; 
-			 position: relative; 
-			display: inline-block;
+			display: flex;
+			justify-content: center;
+			vertical-align: middle;
 		}
 		.well{
 			font-size: 15px;
@@ -1428,10 +1422,9 @@ a{
 		  cursor:pointer;
 			height: 60px;
 			width: 80px;
-			margin: 0px 0 0 -40px;
-			line-height: 60px;
 			position: absolute;
-			left: 50%;
+			margin-top:10vh;
+			left: 49%;
 			color: #FFF;
 			text-align: center;
 			font-size: 70px;
