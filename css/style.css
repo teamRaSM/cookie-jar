@@ -1492,7 +1492,8 @@
 				top: -1px;
 			}
 			.bak h2 {
-				background: #B8C1C8;
+				background: linear-gradient(500deg, #32cca4, #426b94);
+				animation: gradanime 10s ease infinite;
   				border-bottom: 1px solid #989EA4;
   				border-top: 1px solid #717D85;
   				color: #FFF;
@@ -1504,7 +1505,8 @@
 				top: -1px;
 			}
 			.tec h2 {
-				background: #B8C1C8;
+				background: linear-gradient(500deg, #32cca4, #426b94);
+				animation: gradanime 10s ease infinite;
   				border-bottom: 1px solid #989EA4;
   				border-top: 1px solid #717D85;
   				color: #FFF;
@@ -1516,7 +1518,8 @@
 				top: -1px;
 			}
 			.des h2 {
-				background: #B8C1C8;
+				background: linear-gradient(500deg, #32cca4, #426b94);
+				animation: gradanime 10s ease infinite;
   				border-bottom: 1px solid #989EA4;
   				border-top: 1px solid #717D85;
   				color: #FFF;
@@ -1528,7 +1531,8 @@
 				top: -1px;
 			}
 			.mar h2 {
-				background: #B8C1C8;
+				background: linear-gradient(500deg, #32cca4, #426b94);
+				animation: gradanime 10s ease infinite;
   				border-bottom: 1px solid #989EA4;
   				border-top: 1px solid #717D85;
   				color: #FFF;
