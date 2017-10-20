@@ -995,6 +995,7 @@ a{
 			line-height: inherit;
 			left:0em;
 			background: #963030;
+			opacity: 0.75;
 			display: flex;
 			z-index: 1000;
 			position: fixed;
