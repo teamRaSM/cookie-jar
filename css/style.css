@@ -51,7 +51,11 @@
 	p {
 		margin: 0 0 2em 0;
 	}
-
+	header img{
+		max-height: 150px;
+		max-width: 150px;
+		border-radius: 20px;
+	}
 	h1, h2, h3, h4, h5, h6 {
 		color: #474747;
 		font-weight: 700;
