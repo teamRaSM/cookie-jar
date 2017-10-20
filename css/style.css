@@ -997,7 +997,7 @@ a{
 			background: #963030;
 			display: flex;
 			z-index: 1000;
-			position: absolute;
+			position: fixed;
 			width: 100%;
 			justify-content: flex-end;
 			font-weight: 700;
