@@ -926,25 +926,26 @@
 		}
 
 /* Header */
-
+a{
+	color:#000 !important;
+}
 	body.landing #header {
-		background-color: transparent;
 		left: 0;
-		position: absolute;
+		position: fixed;
 		top: 0;
 	}
 
 		body.landing #header nav a {
-			color: white;
+			color: white !important;
 		}
 
 	#header {
-		background-color: #383b43;
+		background-color: #011138;
 		color: #ffffff;
 		cursor: default;
 		font-size: 1.1em;
-		height: 6em;
-		line-height: 6em;
+		height: 3em;
+		line-height: 2.5em;
 		width: 100%;
 		z-index: 10000;
 	}
