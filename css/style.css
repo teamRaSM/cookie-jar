@@ -1571,6 +1571,10 @@ nav > ul > li .button {
 			}
 		}
 @media only screen and (max-width: 980px){
+	nav ul li a{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 	nav ul{
 		flex-direction: column;
 		align-items: stretch;
@@ -1580,9 +1584,12 @@ nav > ul > li .button {
 		flex-direction: column;
 		align-items: stretch;
 		justify-content: center;
-		back
 	}
 	body #navPanel{
 		background: #963030;	
 	}
+}
+
+header h2{
+	font-family: 'Open Sans', sans-serif;
 }
