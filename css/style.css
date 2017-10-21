@@ -1588,6 +1588,15 @@ nav > ul > li .button {
 	body #navPanel{
 		background: #963030;	
 	}
+	#one .container {
+		display: flex;
+		padding: 0;
+		flex-direction: column;
+		align-items: stretch; 
+	}
+	#one .container .card{
+		width: 100%;
+	}
 }
 
 header h2{
