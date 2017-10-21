@@ -1125,8 +1125,6 @@ nav > ul > li .button {
 			color: white;
 			font-size: 4em;
 			line-height: 1.25em;
-			padding: 2px;
-			z-index: 1;
 		}
 		@media screen and (max-width: 600px){
 			#banner h2 {
@@ -1572,3 +1570,19 @@ nav > ul > li .button {
  			    padding: 2px 0 0 12px;
 			}
 		}
+@media only screen and (max-width: 980px){
+	nav ul{
+		flex-direction: column;
+		align-items: stretch;
+		justify-content: center;
+	}
+	nav{
+		flex-direction: column;
+		align-items: stretch;
+		justify-content: center;
+		back
+	}
+	body #navPanel{
+		background: #963030;	
+	}
+}
