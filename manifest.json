@@ -1,0 +1,16 @@
+{
+  "name": "Cookie Jar",
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": 0.9
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#CE6100",
+  "Theme_color": "#CE6100",
+  "display": "standalone",
+  "orientation": "portrait"
+}
